@@ -1,0 +1,73 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0; padding: 0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #1f1f1f, #282828);
+  border-bottom: 2px solid #00ffcc;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 700;
+  color: #00ffcc;
+}
+
+p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #66fff0;
+}
+
+#token-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.token-card {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 0 10px #00ffcc44;
+  transition: transform 0.3s ease;
+}
+
+.token-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffccaa;
+}
+
+.token-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #00ffe0;
+}
+
+.token-price {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #00ffcc;
+}
+
+.token-volume, .token-marketcap, .token-supply {
+  font-size: 14px;
+  color: #99ffea;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  color: #00ffcc;
+  border-top: 1px solid #00ffcc33;
+}
